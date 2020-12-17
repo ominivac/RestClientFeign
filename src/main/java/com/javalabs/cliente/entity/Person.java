@@ -57,8 +57,14 @@ public class Person implements Serializable{
 	public void setFone(String fone) {
 		this.fone = fone;
 	}
-	
-	
 
+	@Override
+	public String toString() {
+		return "Person [idPerson=" + idPerson + ", name=" + name + ", endereco=" + endereco + ", email=" + email
+				+ ", fone=" + fone + "]";
+	}
+	
+	
+	
 
 }
